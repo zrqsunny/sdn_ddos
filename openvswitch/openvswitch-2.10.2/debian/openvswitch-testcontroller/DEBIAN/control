@@ -1,0 +1,15 @@
+Package: openvswitch-testcontroller
+Source: openvswitch
+Version: 2.10.2-1
+Architecture: amd64
+Maintainer: Open vSwitch developers <dev@openvswitch.org>
+Installed-Size: 78
+Depends: openvswitch-common (= 2.10.2-1), openvswitch-pki (= 2.10.2-1), libc6 (>= 2.4), libopenvswitch
+Section: net
+Priority: extra
+Homepage: http://openvswitch.org/
+Description: Simple controller for testing OpenFlow setups
+ This controller enables OpenFlow switches that connect to it to act
+ as MAC-learning Ethernet switches.  It can be used for initial
+ testing of OpenFlow networks.  It is not a necessary or desirable
+ part of a production OpenFlow deployment.

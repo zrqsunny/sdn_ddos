@@ -1,0 +1,11 @@
+openvswitch-common_2.5.5-1_amd64.deb net extra
+openvswitch-datapath-dkms_2.5.5-1_all.deb net extra
+openvswitch-datapath-source_2.5.5-1_all.deb net extra
+openvswitch-dbg_2.5.5-1_amd64.deb debug extra
+openvswitch-ipsec_2.5.5-1_amd64.deb net extra
+openvswitch-pki_2.5.5-1_all.deb net extra
+openvswitch-switch_2.5.5-1_amd64.deb net extra
+openvswitch-test_2.5.5-1_all.deb net extra
+openvswitch-testcontroller_2.5.5-1_amd64.deb net extra
+openvswitch-vtep_2.5.5-1_amd64.deb net extra
+python-openvswitch_2.5.5-1_all.deb python extra

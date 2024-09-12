@@ -1,0 +1,15 @@
+# Automatically added by dh_installinit
+if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ]; then
+	if [ -x "/etc/init.d/openvswitch-testcontroller" ]; then
+		update-rc.d openvswitch-testcontroller defaults >/dev/null
+	fi
+	if [ -x "/etc/init.d/openvswitch-testcontroller" ] || [ -e "/etc/init/openvswitch-testcontroller.conf" ]; then
+		if [ -n "$2" ]; then
+			_dh_action=restart
+		else
+			_dh_action=start
+		fi
+		invoke-rc.d openvswitch-testcontroller $_dh_action || exit $?
+	fi
+fi
+# End automatically added section

@@ -1,0 +1,17 @@
+openvswitch-datapath-source
+openvswitch-datapath-dkms
+openvswitch-common
+libopenvswitch
+openvswitch-switch
+ovn-common
+ovn-controller-vtep
+ovn-host
+ovn-central
+ovn-docker
+openvswitch-pki
+openvswitch-testcontroller
+openvswitch-dbg
+python-openvswitch
+openvswitch-test
+openvswitch-vtep
+libopenvswitch-dev

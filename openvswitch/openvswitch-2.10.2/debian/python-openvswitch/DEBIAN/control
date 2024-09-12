@@ -1,0 +1,20 @@
+Package: python-openvswitch
+Source: openvswitch
+Version: 2.10.2-1
+Architecture: all
+Maintainer: Open vSwitch developers <dev@openvswitch.org>
+Installed-Size: 498
+Depends: python (>= 2.7), python (<< 2.8), python-six
+Section: python
+Priority: extra
+Homepage: http://openvswitch.org/
+Description: Python bindings for Open vSwitch
+ Open vSwitch is a production quality, multilayer, software-based,
+ Ethernet virtual switch. It is designed to enable massive network
+ automation through programmatic extension, while still supporting
+ standard management interfaces and protocols (e.g. NetFlow, IPFIX,
+ sFlow, SPAN, RSPAN, CLI, LACP, 802.1ag). In addition, it is designed
+ to support distribution across multiple physical servers similar to
+ VMware's vNetwork distributed vswitch or Cisco's Nexus 1000V.
+ .
+ This package contains the full Python bindings for Open vSwitch database.

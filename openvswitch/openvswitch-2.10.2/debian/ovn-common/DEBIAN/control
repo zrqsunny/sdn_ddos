@@ -1,0 +1,17 @@
+Package: ovn-common
+Source: openvswitch
+Version: 2.10.2-1
+Architecture: amd64
+Maintainer: Open vSwitch developers <dev@openvswitch.org>
+Installed-Size: 404
+Depends: openvswitch-common (= 2.10.2-1), libc6 (>= 2.14), libopenvswitch
+Section: net
+Priority: extra
+Homepage: http://openvswitch.org/
+Description: OVN common components
+ OVN, the Open Virtual Network, is a system to support virtual network
+ abstraction.  OVN complements the existing capabilities of OVS to add
+ native support for virtual network abstractions, such as virtual L2 and L3
+ overlays and security groups.
+ .
+ ovn-common provides components required by other OVN packages.

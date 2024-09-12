@@ -1,0 +1,11 @@
+openvswitch-datapath-source
+openvswitch-datapath-dkms
+openvswitch-common
+openvswitch-switch
+openvswitch-ipsec
+openvswitch-pki
+openvswitch-testcontroller
+openvswitch-dbg
+python-openvswitch
+openvswitch-test
+openvswitch-vtep

@@ -1,0 +1,4 @@
+c8c218f9a9789c0e5c934948dd5d7d68  usr/bin/ovn-controller-vtep
+d2985e769e872c3d9d5bb20b5495cafc  usr/share/doc/ovn-controller-vtep/changelog.Debian.gz
+10cd95f1f9e9e9a78f5063995a85a53a  usr/share/doc/ovn-controller-vtep/copyright
+0534c375cb4314edb8f6894a071c710e  usr/share/man/man8/ovn-controller-vtep.8.gz

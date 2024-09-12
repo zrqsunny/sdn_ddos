@@ -1,0 +1,98 @@
+Generating a 2048 bit RSA private key
+.+++
+....................................................................................+++
+unable to write 'random state'
+writing new private key to 'private/cakey.pem'
+-----
+Using configuration from ca.cnf
+Check that the request matches the signature
+Signature ok
+Certificate Details:
+        Serial Number: 1 (0x1)
+        Validity
+            Not Before: Jul  5 01:43:52 2020 GMT
+            Not After : Jul  3 01:43:52 2030 GMT
+        Subject:
+            countryName               = US
+            stateOrProvinceName       = CA
+            organizationName          = Open vSwitch
+            organizationalUnitName    = controllerca
+            commonName                = OVS controllerca CA Certificate (2020 7\E6\9C\88 05 09:43:52)
+Certificate is to be certified until Jul  3 01:43:52 2030 GMT (3650 days)
+
+Write out database with 1 new entries
+Data Base Updated
+unable to write 'random state'
+Generating a 2048 bit RSA private key
+..........................+++
+................................................................................................+++
+unable to write 'random state'
+writing new private key to 'private/cakey.pem'
+-----
+Using configuration from ca.cnf
+Check that the request matches the signature
+Signature ok
+Certificate Details:
+        Serial Number: 1 (0x1)
+        Validity
+            Not Before: Jul  5 01:43:52 2020 GMT
+            Not After : Jul  3 01:43:52 2030 GMT
+        Subject:
+            countryName               = US
+            stateOrProvinceName       = CA
+            organizationName          = Open vSwitch
+            organizationalUnitName    = switchca
+            commonName                = OVS switchca CA Certificate (2020 7\E6\9C\88 05 09:43:52)
+Certificate is to be certified until Jul  3 01:43:52 2030 GMT (3650 days)
+
+Write out database with 1 new entries
+Data Base Updated
+unable to write 'random state'
+Generating RSA private key, 2048 bit long modulus
+...........................................................+++
+...................+++
+unable to write 'random state'
+e is 65537 (0x10001)
+Using configuration from ca.cnf
+Check that the request matches the signature
+Signature ok
+Certificate Details:
+        Serial Number: 2 (0x2)
+        Validity
+            Not Before: Jul  5 01:43:52 2020 GMT
+            Not After : Jul  3 01:43:52 2030 GMT
+        Subject:
+            countryName               = US
+            stateOrProvinceName       = CA
+            organizationName          = Open vSwitch
+            organizationalUnitName    = Open vSwitch certifier
+            commonName                = tests/pki/test id:018723d5-2ceb-48b9-9447-491a7718413e
+Certificate is to be certified until Jul  3 01:43:52 2030 GMT (3650 days)
+
+Write out database with 1 new entries
+Data Base Updated
+unable to write 'random state'
+Generating RSA private key, 2048 bit long modulus
+.......+++
+...........................................+++
+unable to write 'random state'
+e is 65537 (0x10001)
+Using configuration from ca.cnf
+Check that the request matches the signature
+Signature ok
+Certificate Details:
+        Serial Number: 3 (0x3)
+        Validity
+            Not Before: Jul  5 01:43:52 2020 GMT
+            Not After : Jul  3 01:43:52 2030 GMT
+        Subject:
+            countryName               = US
+            stateOrProvinceName       = CA
+            organizationName          = Open vSwitch
+            organizationalUnitName    = Open vSwitch certifier
+            commonName                = tests/pki/test2 id:c5ee9995-bcee-4e0e-b640-ef7a13444d5d
+Certificate is to be certified until Jul  3 01:43:52 2030 GMT (3650 days)
+
+Write out database with 1 new entries
+Data Base Updated
+unable to write 'random state'

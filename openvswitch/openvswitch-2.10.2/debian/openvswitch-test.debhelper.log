@@ -1,0 +1,50 @@
+dh_update_autotools_config
+override_dh_autoreconf dh_autoreconf
+dh_autoreconf
+override_dh_auto_configure dh_auto_configure
+dh_auto_configure
+override_dh_auto_build dh_auto_build
+dh_auto_build
+dh_auto_test
+dh_prep
+dh_installdirs
+dh_auto_install
+override_dh_install dh_install
+dh_install
+dh_installdocs
+dh_installchangelogs
+override_dh_installman dh_installman
+dh_installman
+override_dh_installinit dh_installinit
+dh_installinit
+dh_installlogrotate
+dh_perl
+dh_link
+dh_strip_nondeterminism
+dh_compress
+dh_fixperms
+override_dh_strip dh_strip
+dh_strip
+dh_makeshlibs
+dh_shlibdeps
+dh_installdeb
+dh_gencontrol
+dh_md5sums
+dh_builddeb
+dh_builddeb
+dh_builddeb
+dh_builddeb
+dh_builddeb
+dh_builddeb
+dh_builddeb
+dh_builddeb
+dh_builddeb
+dh_builddeb
+dh_builddeb
+dh_builddeb
+dh_builddeb
+dh_builddeb
+dh_builddeb
+dh_builddeb
+dh_builddeb
+dh_builddeb

@@ -1,0 +1,21 @@
+Package: libopenvswitch
+Source: openvswitch
+Version: 2.10.2-1
+Architecture: amd64
+Maintainer: Open vSwitch developers <dev@openvswitch.org>
+Installed-Size: 4184
+Depends: openssl, libc6 (>= 2.14), libssl1.0.0 (>= 1.0.0), libunbound2 (>= 1.4.1)
+Section: net
+Priority: extra
+Multi-Arch: same
+Homepage: http://openvswitch.org/
+Description: Open vSwitch common components
+ Open vSwitch is a production quality, multilayer, software-based,
+ Ethernet virtual switch. It is designed to enable massive network
+ automation through programmatic extension, while still supporting
+ standard management interfaces and protocols (e.g. NetFlow, IPFIX,
+ sFlow, SPAN, RSPAN, CLI, LACP, 802.1ag). In addition, it is designed
+ to support distribution across multiple physical servers similar to
+ VMware's vNetwork distributed vswitch or Cisco's Nexus 1000V.
+ .
+ libopenvswitch provides runtime libraries for use by openvswitch binaries

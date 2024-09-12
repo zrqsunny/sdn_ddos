@@ -1,0 +1,18 @@
+Package: ovn-controller-vtep
+Source: openvswitch
+Version: 2.10.2-1
+Architecture: amd64
+Maintainer: Open vSwitch developers <dev@openvswitch.org>
+Installed-Size: 78
+Depends: ovn-common (= 2.10.2-1), libc6 (>= 2.4), libopenvswitch
+Section: net
+Priority: extra
+Homepage: http://openvswitch.org/
+Description: OVN vtep controller
+ ovn-controller-vtep is the local controller daemon in
+ OVN, the Open Virtual Network, for VTEP enabled physical switches.
+ It connects up to the OVN Southbound database over the OVSDB protocol,
+ and down to the VTEP database over the OVSDB protocol.
+ .
+ ovn-controller-vtep provides the ovn-controller-vtep binary for controlling
+ vtep gateways.

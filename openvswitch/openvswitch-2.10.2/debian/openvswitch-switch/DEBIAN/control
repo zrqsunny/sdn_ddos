@@ -1,0 +1,22 @@
+Package: openvswitch-switch
+Source: openvswitch
+Version: 2.10.2-1
+Architecture: amd64
+Maintainer: Open vSwitch developers <dev@openvswitch.org>
+Installed-Size: 654
+Depends: kmod | module-init-tools, netbase, openvswitch-common (= 2.10.2-1), procps, python-argparse, uuid-runtime, libc6 (>= 2.4), libopenvswitch
+Suggests: openvswitch-datapath-module
+Section: net
+Priority: extra
+Homepage: http://openvswitch.org/
+Description: Open vSwitch switch implementations
+ Open vSwitch is a production quality, multilayer, software-based,
+ Ethernet virtual switch. It is designed to enable massive network
+ automation through programmatic extension, while still supporting
+ standard management interfaces and protocols (e.g. NetFlow, IPFIX,
+ sFlow, SPAN, RSPAN, CLI, LACP, 802.1ag). In addition, it is designed
+ to support distribution across multiple physical servers similar to
+ VMware's vNetwork distributed vswitch or Cisco's Nexus 1000V.
+ .
+ openvswitch-switch provides the userspace components and utilities for
+ the Open vSwitch kernel-based switch.

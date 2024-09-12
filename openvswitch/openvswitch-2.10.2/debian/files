@@ -1,0 +1,17 @@
+libopenvswitch-dev_2.10.2-1_amd64.deb net extra
+libopenvswitch_2.10.2-1_amd64.deb net extra
+openvswitch-common_2.10.2-1_amd64.deb net extra
+openvswitch-datapath-dkms_2.10.2-1_all.deb net extra
+openvswitch-datapath-source_2.10.2-1_all.deb net extra
+openvswitch-dbg_2.10.2-1_amd64.deb debug extra
+openvswitch-pki_2.10.2-1_all.deb net extra
+openvswitch-switch_2.10.2-1_amd64.deb net extra
+openvswitch-test_2.10.2-1_all.deb net extra
+openvswitch-testcontroller_2.10.2-1_amd64.deb net extra
+openvswitch-vtep_2.10.2-1_amd64.deb net extra
+ovn-central_2.10.2-1_amd64.deb net extra
+ovn-common_2.10.2-1_amd64.deb net extra
+ovn-controller-vtep_2.10.2-1_amd64.deb net extra
+ovn-docker_2.10.2-1_amd64.deb net extra
+ovn-host_2.10.2-1_amd64.deb net extra
+python-openvswitch_2.10.2-1_all.deb python extra

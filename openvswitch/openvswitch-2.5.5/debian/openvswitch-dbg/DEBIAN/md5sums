@@ -1,0 +1,13 @@
+9770a89796cedec03479beb0185f97cc  usr/lib/debug/usr/bin/ovs-appctl
+a2599f5647f48f34cf29c932a8874b59  usr/lib/debug/usr/bin/ovs-benchmark
+452e52410832025edf51bef0e1405da5  usr/lib/debug/usr/bin/ovs-dpctl
+1d433cbc0ccd0bd223c03eaa8f0d22a7  usr/lib/debug/usr/bin/ovs-ofctl
+9a3be0adda748b8538677cd82b114beb  usr/lib/debug/usr/bin/ovs-testcontroller
+bc0fcff20f4cad3ae548c0c206a780fd  usr/lib/debug/usr/bin/ovs-vsctl
+e95aabc7bbd955deae881af72729b315  usr/lib/debug/usr/bin/ovsdb-client
+20a44102e0a295d4b4378a696c051728  usr/lib/debug/usr/bin/ovsdb-tool
+471677f24f76496c0abdb45246cb85a8  usr/lib/debug/usr/bin/vtep-ctl
+236049e96992f03dfd68f2f18b72809a  usr/lib/debug/usr/sbin/ovs-vswitchd
+55fd3febedb44dacfe6a50910293acea  usr/lib/debug/usr/sbin/ovsdb-server
+134718fc7ccf139b3d3113aae98735e3  usr/share/doc/openvswitch-dbg/changelog.Debian.gz
+07515aade7287a378468d86593b910f2  usr/share/doc/openvswitch-dbg/copyright

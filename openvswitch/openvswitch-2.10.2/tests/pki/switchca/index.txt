@@ -1,0 +1,3 @@
+V	300703014352Z		01	unknown	/C=US/ST=CA/O=Open vSwitch/OU=switchca/CN=OVS switchca CA Certificate (2020 7\xC3\xA6\xC2\x9C\xC2\x88 05 09:43:52)
+V	300703014352Z		02	unknown	/C=US/ST=CA/O=Open vSwitch/OU=Open vSwitch certifier/CN=tests/pki/test id:018723d5-2ceb-48b9-9447-491a7718413e
+V	300703014352Z		03	unknown	/C=US/ST=CA/O=Open vSwitch/OU=Open vSwitch certifier/CN=tests/pki/test2 id:c5ee9995-bcee-4e0e-b640-ef7a13444d5d

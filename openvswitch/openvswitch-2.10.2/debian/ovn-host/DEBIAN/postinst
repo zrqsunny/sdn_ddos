@@ -1,0 +1,64 @@
+#!/bin/sh
+# postinst script for ovn-host
+#
+# see: dh_installdeb(1)
+
+set -e
+
+# summary of how this script can be called:
+#        * <postinst> `configure' <most-recently-configured-version>
+#        * <old-postinst> `abort-upgrade' <new version>
+#        * <conflictor's-postinst> `abort-remove' `in-favour' <package>
+#          <new-version>
+#        * <postinst> `abort-remove'
+#        * <deconfigured's-postinst> `abort-deconfigure' `in-favour'
+#          <failed-install-package> <version> `removing'
+#          <conflicting-package> <version>
+# for details, see http://www.debian.org/doc/debian-policy/ or
+# the debian-policy package
+
+
+case "$1" in
+    configure)
+        DEFAULT=/etc/default/ovn-host
+        TEMPLATE=/usr/share/ovn/host/default.template
+        if ! test -e $DEFAULT; then
+            cp $TEMPLATE $DEFAULT
+        else
+            for var in $(awk -F'[ :]' '/^# [_A-Z0-9]+:/{print $2}' $TEMPLATE)
+            do
+                if ! grep $var $DEFAULT >/dev/null 2>&1; then
+                    echo >> $DEFAULT
+                    sed -n "/$var:/,/$var=/p" $TEMPLATE >> $DEFAULT
+                fi
+            done
+        fi
+        ;;
+
+    abort-upgrade|abort-remove|abort-deconfigure)
+        ;;
+
+    *)
+        echo "postinst called with unknown argument \`$1'" >&2
+        exit 1
+        ;;
+esac
+
+# Automatically added by dh_installinit
+if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ]; then
+	if [ -x "/etc/init.d/ovn-host" ]; then
+		update-rc.d ovn-host defaults >/dev/null
+	fi
+	if [ -x "/etc/init.d/ovn-host" ] || [ -e "/etc/init/ovn-host.conf" ]; then
+		if [ -n "$2" ]; then
+			_dh_action=restart
+		else
+			_dh_action=start
+		fi
+		invoke-rc.d ovn-host $_dh_action || exit $?
+	fi
+fi
+# End automatically added section
+
+
+exit 0

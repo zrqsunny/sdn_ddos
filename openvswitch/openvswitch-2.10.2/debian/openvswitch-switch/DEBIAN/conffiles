@@ -1,0 +1,3 @@
+/etc/bash_completion.d/ovs-vsctl-bashcomp.bash
+/etc/init.d/openvswitch-switch
+/etc/logrotate.d/openvswitch-switch

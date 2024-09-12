@@ -1,0 +1,22 @@
+Package: openvswitch-pki
+Source: openvswitch
+Version: 2.10.2-1
+Architecture: all
+Maintainer: Open vSwitch developers <dev@openvswitch.org>
+Installed-Size: 33
+Depends: openvswitch-common (<< 2.10.2-1.1~), openvswitch-common (>= 2.10.2-1)
+Section: net
+Priority: extra
+Homepage: http://openvswitch.org/
+Description: Open vSwitch public key infrastructure dependency package
+ Open vSwitch is a production quality, multilayer, software-based,
+ Ethernet virtual switch. It is designed to enable massive network
+ automation through programmatic extension, while still supporting
+ standard management interfaces and protocols (e.g. NetFlow, IPFIX,
+ sFlow, SPAN, RSPAN, CLI, LACP, 802.1ag). In addition, it is designed
+ to support distribution across multiple physical servers similar to
+ VMware's vNetwork distributed vswitch or Cisco's Nexus 1000V.
+ .
+ openvswitch-pki provides PKI (public key infrastructure) support for
+ Open vSwitch switches and controllers, reducing the risk of
+ man-in-the-middle attacks on the Open vSwitch network infrastructure.

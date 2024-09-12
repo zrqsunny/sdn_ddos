@@ -1,0 +1,6 @@
+libofproto-2.10 0 libopenvswitch
+libopenvswitch-2.10 0 libopenvswitch
+libovn-2.10 0 libopenvswitch
+libovsdb-2.10 0 libopenvswitch
+libsflow-2.10 0 libopenvswitch
+libvtep-2.10 0 libopenvswitch

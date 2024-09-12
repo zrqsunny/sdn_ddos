@@ -1,0 +1,23 @@
+Package: openvswitch-dbg
+Source: openvswitch
+Version: 2.5.5-1
+Architecture: amd64
+Maintainer: Open vSwitch developers <dev@openvswitch.org>
+Installed-Size: 37163
+Depends: openvswitch-common (= 2.5.5-1), openvswitch-switch (= 2.5.5-1)
+Conflicts: openvswitch-testcontroller (>> 2.5.5-1), openvswitch-testcontroller (<< 2.5.5-1)
+Section: debug
+Priority: extra
+Homepage: http://openvswitch.org/
+Description: Debug symbols for Open vSwitch packages
+ Open vSwitch is a production quality, multilayer, software-based,
+ Ethernet virtual switch. It is designed to enable massive network
+ automation through programmatic extension, while still supporting
+ standard management interfaces and protocols (e.g. NetFlow, IPFIX,
+ sFlow, SPAN, RSPAN, CLI, LACP, 802.1ag). In addition, it is designed
+ to support distribution across multiple physical servers similar to
+ VMware's vNetwork distributed vswitch or Cisco's Nexus 1000V.
+ .
+ This package contains the debug symbols for all the other openvswitch-*
+ packages.  Install it to debug one of them or to examine a core dump
+ produced by one of them.
