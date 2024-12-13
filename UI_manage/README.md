@@ -36,15 +36,7 @@
 
 ![Image text](https://github.com/lin-xin/manage-system/raw/master/screenshots/wms2.png)
 
-## 赞赏
 
-请作者喝杯咖啡吧！(微信号：linxin_20)
-
-![微信扫一扫](https://lin-xin.gitee.io/images/weixin.jpg)
-
-## 特别鸣谢
-
-- [实验楼](https://www.shiyanlou.com?source=vue-manage-system)
 
 ## 前言
 
